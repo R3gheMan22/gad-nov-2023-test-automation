@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bcb9a-4d52-43a6-b280-fc350333bb8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataProviders/SignUpPageDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SignUpPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/utils/Browsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/utils/SeleniumUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataProviders/NegativeTestDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RegisterNewUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
     "onboarding.tips.debug.path": "C:/Politehnica/Java Google/gad-nov-2023-test-automation/register-form/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SignUpPageTest.testIfSignUpPageIsAvailable">
+  <component name="RunManager" selected="TestNG.RegisterNewUserTest.testNegativeSignUp">
     <configuration name="GoogleSearchTest.SearchOnGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="register-form" />
       <extension name="coverage">
@@ -58,6 +54,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.GoogleSearchTest" />
       <option name="METHOD_NAME" value="SearchOnGoogle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterNewUserTest.testNegativeSignUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="register-form" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.RegisterNewUserTest" />
+      <option name="METHOD_NAME" value="testNegativeSignUp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegisterNewUserTest.testNegativeSignUp" />
         <item itemvalue="TestNG.SignUpPageTest.testIfSignUpPageIsAvailable" />
         <item itemvalue="TestNG.GoogleSearchTest.SearchOnGoogle" />
       </list>
@@ -100,5 +115,16 @@
       <updated>1705424921225</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
